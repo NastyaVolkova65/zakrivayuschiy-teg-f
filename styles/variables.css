@@ -20,8 +20,8 @@
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
 
   --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-  --header-padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 0;
-  --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --header-padding: clamp(7.2rem, 6.8479rem + 1.5023vw, 8.2rem) 0;
+  --header-logo-size: clamp(2.9925rem, 2.6404rem + 1.5023vw, 3.9925rem);
+  --header-title-size: clamp(0.856rem, 0.6579rem + 0.8451vw, 1.418rem);
   --like-icon-size: 39px;
 }
