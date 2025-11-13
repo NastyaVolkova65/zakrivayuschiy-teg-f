@@ -14,11 +14,6 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-     <svg style="display: none;">
-        <symbol id="icon-save" viewBox="0 0 24 24">
-          <use href="./images/icons/floppy.svg"/>
-        </symbol>
-     </svg>
     <header class="header">
       <div class="header__content">
         <span class="header__logo">&lt;/HTML&gt;</span>
@@ -296,7 +291,7 @@
       </section>
       <div class="save-button-container">
         <button type="button" class="save-button button-common" onclick="document.getElementById('save-dialog').showModal()">
-          <svg class="save-button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+          <svg class="save-button__icon" width="21" height="21">
           <use href="./svg/saveicon.svg#save-icon"></use>
           </svg>
           <span class="button__text">Сохранить на память</span>
@@ -305,7 +300,7 @@
     </main>
     <dialog id="save-dialog" class="dialog">
       <div class="dialog__content">
-        <svg class="dialog__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
+        <svg class="dialog__icon" width="39" height="39">
           <use href="./svg/saveicon.svg#save-icon"></use>
         </svg>
         <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>

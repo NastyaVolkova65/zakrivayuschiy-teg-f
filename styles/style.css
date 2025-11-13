@@ -343,7 +343,7 @@
 .dialog {
   border: 2px solid var(--accent-color, #000);
   background-color: var(--bg-color, #fff);
-  padding: 28px;
+  padding: 30px;
   max-width: 353px;
   position: fixed;
   top: 50%;
@@ -362,9 +362,9 @@
 .dialog__content {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 30px;
+  gap: 25px 20px;
   align-items: center;
-  min-width: 293px;
+  min-width: 261px;
 }
 
 .dialog__icon {
@@ -410,14 +410,11 @@
   }
 
   .dialog {
-    max-width: 341px;
     padding: 33px 40px;
   }
 
   .dialog__content {
-    gap: 20px;
     min-width: 261px;
 }
 }
-
 
